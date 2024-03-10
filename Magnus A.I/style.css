@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Ojuju:wght@200..800&display=swap');
+
+body {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+    padding: 30px;
+}
+
+.FadeAnimation{
+    animation:  FadeInOut 3s ease-in-out;
+}
+.FadeAnimation1{
+    animation:  FadeInOut 5s ease-in-out;
+}
+.FadeAnimation2{
+    animation:  FadeInOut 7s ease-in-out;
+}
+
+@keyframes FadeInOut
+{    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius : 50px;
+    filter: blur(50px);
+    background: linear-gradient(transparent,#a7065e)
+}
